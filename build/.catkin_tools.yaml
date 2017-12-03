@@ -1,0 +1,6 @@
+devel_space: /home/ros-industrial/HW8/devel
+install: false
+install_space: /home/ros-industrial/HW8/install
+profile: default
+source_space: /home/ros-industrial/HW8/src
+workspace: /home/ros-industrial/HW8

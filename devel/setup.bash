@@ -1,0 +1,1 @@
+/home/ros-industrial/HW8/devel/.private/catkin_tools_prebuild/setup.bash
