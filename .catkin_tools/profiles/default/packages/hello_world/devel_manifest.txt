@@ -1,0 +1,6 @@
+hello_world
+/home/ros-industrial/HW8/devel/.private/hello_world/lib/hello_world/name /home/ros-industrial/HW8/devel/lib/hello_world/name
+/home/ros-industrial/HW8/devel/.private/hello_world/lib/hello_world/hello /home/ros-industrial/HW8/devel/lib/hello_world/hello
+/home/ros-industrial/HW8/devel/.private/hello_world/lib/pkgconfig/hello_world.pc /home/ros-industrial/HW8/devel/lib/pkgconfig/hello_world.pc
+/home/ros-industrial/HW8/devel/.private/hello_world/share/hello_world/cmake/hello_worldConfig.cmake /home/ros-industrial/HW8/devel/share/hello_world/cmake/hello_worldConfig.cmake
+/home/ros-industrial/HW8/devel/.private/hello_world/share/hello_world/cmake/hello_worldConfig-version.cmake /home/ros-industrial/HW8/devel/share/hello_world/cmake/hello_worldConfig-version.cmake

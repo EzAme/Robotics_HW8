@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/pubvel_spiral.dir/src/pubvel_spiral.cpp.o  -o /home/ros-industrial/HW8/devel/.private/param/lib/param/pubvel_spiral -rdynamic 

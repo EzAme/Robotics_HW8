@@ -1,0 +1,7 @@
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:9:1: error: expected initializer before ‘int’
+ int main(int argc, char **argv) {
+ ^
+make[2]: *** [CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_smart.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

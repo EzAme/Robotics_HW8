@@ -1,0 +1,8 @@
+[31m[1mCMake Error[0m at /home/ros-industrial/HW8/src/hello_world/CMakeLists.txt:12 (add_executable):
+  add_executable cannot create target "hello" because another target with the
+  same name already exists.  The existing target is an executable created in
+  source directory "/home/ros-industrial/HW8/src/hello_world".  See
+  documentation for policy CMP0002 for more details.
+
+
+make: *** [cmake_check_build_system] Error 1

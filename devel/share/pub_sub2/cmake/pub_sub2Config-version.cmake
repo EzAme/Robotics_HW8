@@ -1,0 +1,1 @@
+/home/ros-industrial/HW8/devel/.private/pub_sub2/share/pub_sub2/cmake/pub_sub2Config-version.cmake

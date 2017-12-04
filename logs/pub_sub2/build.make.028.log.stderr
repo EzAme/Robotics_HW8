@@ -1,0 +1,10 @@
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp: In function ‘void positionT(const Pose&)’:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:9:6: error: base operand of ‘->’ is not a pointer
+   k.x->msg2.x;
+      ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:10:6: error: base operand of ‘->’ is not a pointer
+   k.y->msg2.y;
+      ^
+make[2]: *** [CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_smart.dir/all] Error 2
+make: *** [all] Error 2

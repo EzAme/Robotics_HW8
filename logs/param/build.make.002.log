@@ -1,0 +1,17 @@
+Scanning dependencies of target pubvel_spiral
+[ 16%] Building CXX object CMakeFiles/pubvel_spiral.dir/src/pubvel_spiral.cpp.o
+[ 50%] Built target pubvel_with_max
+[ 83%] Built target set_bg_color
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:9:31: error: ‘nullptr’ was not declared in this scope
+ std::time_t start = std::time(nullptr);
+                               ^
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:24:31: error: ‘nullptr’ was not declared in this scope
+   std::time_t end = std::time(nullptr);
+                               ^
+CMakeFiles/pubvel_spiral.dir/build.make:62: recipe for target 'CMakeFiles/pubvel_spiral.dir/src/pubvel_spiral.cpp.o' failed
+make[2]: *** [CMakeFiles/pubvel_spiral.dir/src/pubvel_spiral.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/pubvel_spiral.dir/all' failed
+Makefile:138: recipe for target 'all' failed
+make[1]: *** [CMakeFiles/pubvel_spiral.dir/all] Error 2
+make: *** [all] Error 2

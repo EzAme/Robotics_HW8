@@ -1,0 +1,10 @@
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:9:31: error: ‘nullptr’ was not declared in this scope
+ std::time_t start = std::time(nullptr);
+                               ^
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:24:31: error: ‘nullptr’ was not declared in this scope
+   std::time_t end = std::time(nullptr);
+                               ^
+make[2]: *** [CMakeFiles/pubvel_spiral.dir/src/pubvel_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_spiral.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,16 @@
+<launch>
+<node
+  pkg="turtlesim"
+  type="turtlesim_node"
+  name="turtlesim"
+  respawn="true"
+/>
+<node
+  pkg="pub_sub2"
+  type="pubvel_smart"
+  name="publish_velocity"
+  required="true"
+/>
+
+</launch>
+

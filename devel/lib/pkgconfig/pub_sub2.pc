@@ -1,0 +1,1 @@
+/home/ros-industrial/HW8/devel/.private/pub_sub2/lib/pkgconfig/pub_sub2.pc

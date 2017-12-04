@@ -1,0 +1,8 @@
+prefix=/home/ros-industrial/HW8/install
+
+Name: pub_sub2
+Description: Description of pub_sub2
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ros-industrial/HW8/install/lib 
+Requires: 

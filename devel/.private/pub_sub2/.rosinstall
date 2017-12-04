@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/ros-industrial/HW8/devel/.private/pub_sub2/setup.sh
