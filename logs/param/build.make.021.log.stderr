@@ -1,0 +1,7 @@
+/home/ros-industrial/HW8/src/param/src/set_bg_color.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/param/src/set_bg_color.cpp:20:19: error: ‘PARAM_NAME’ was not declared in this scope
+   ros::param::get(PARAM_NAME, r);
+                   ^
+make[2]: *** [CMakeFiles/set_bg_color.dir/src/set_bg_color.cpp.o] Error 1
+make[1]: *** [CMakeFiles/set_bg_color.dir/all] Error 2
+make: *** [all] Error 2

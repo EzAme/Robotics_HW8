@@ -1,0 +1,10 @@
+/home/ros-industrial/HW8/src/param/src/set_bg_color.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/param/src/set_bg_color.cpp:22:32: error: ‘green’ was not declared in this scope
+   ros::param::get(PARAM_NAME2, green);
+                                ^
+/home/ros-industrial/HW8/src/param/src/set_bg_color.cpp:23:32: error: ‘blue’ was not declared in this scope
+   ros::param::get(PARAM_NAME3, blue);
+                                ^
+make[2]: *** [CMakeFiles/set_bg_color.dir/src/set_bg_color.cpp.o] Error 1
+make[1]: *** [CMakeFiles/set_bg_color.dir/all] Error 2
+make: *** [all] Error 2

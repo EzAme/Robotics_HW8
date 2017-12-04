@@ -12,4 +12,5 @@ add_executable(pubvel_spiral src/pubvel_spiral.cpp)
 
 target_link_libraries(set_bg_color ${catkin_LIBRARIES})
 target_link_libraries(pubvel_with_max ${catkin_LIBRARIES})
+target_link_libraries(pubvel_spiral ${catkin_LIBRARIES})
 

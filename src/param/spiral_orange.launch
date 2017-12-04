@@ -1,0 +1,31 @@
+<launch>
+  <node
+    pkg="turtlesim"
+    type="turtlesim_node"
+    name="turtlesim"
+    respawn="true"
+  />
+  <node
+    pkg="param"
+    type="pubvel_spiral"
+    name="publish_velocity"
+
+  >
+  </node>
+  <node
+    pkg="param"
+    type="set_bg_color"
+    name="set_bg_color"
+  />
+  <node
+    pkg="pub_sub2"
+    type="subpose"
+    name="subpose"
+    output="screen"
+  />
+  <param name="r" value="241" />
+  <param name="g" value="90" />
+  <param name="b" value="34" />
+  <param name="omega" value="0.01" />
+</launch>
+

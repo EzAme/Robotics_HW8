@@ -5,7 +5,8 @@
 #include <stdlib.h> // For rand() and RAND_MAX
 
 double pi = 3.1415926535897;
-double i = 1.0;
+double i = 0;
+
 int main(int argc, char **argv) {
   // Initialize the ROS system and become a node.
   ros::init(argc, argv, "publish_velocity");
@@ -17,7 +18,9 @@ int main(int argc, char **argv) {
 
   // Seed the random number generator.
   srand(time(0));
-
+  const std::string PARAM_NAME = "omega";
+  double c;
+  ros::param::get(PARAM_NAME, c);
   // Loop at 2Hz until the node is shut down.
   ros::Rate rate(2);
   while(ros::ok()) {
@@ -25,9 +28,12 @@ int main(int argc, char **argv) {
     // fields, which are ignored by turtlesim, default to 0.
 
     geometry_msgs::Twist msg; //Object msgs
-    msg.linear.x = 1;
-    msg.angular.z = i;
-    // Publish the message.
+
+      msg.angular.z = -1;
+
+      msg.linear.x = c*i;
+
+    // Publish the message5
     i+=1;
     pub.publish(msg);
 

@@ -1,0 +1,16 @@
+/home/ros-industrial/HW8/src/param/src/set_bg_color.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/param/src/set_bg_color.cpp:15:21: error: redeclaration of ‘const string PARAM_NAME’
+   const std::string PARAM_NAME = "~g";
+                     ^
+/home/ros-industrial/HW8/src/param/src/set_bg_color.cpp:14:21: note: ‘const string PARAM_NAME’ previously declared here
+   const std::string PARAM_NAME = "~r";
+                     ^
+/home/ros-industrial/HW8/src/param/src/set_bg_color.cpp:16:21: error: redeclaration of ‘const string PARAM_NAME’
+   const std::string PARAM_NAME = "~b";
+                     ^
+/home/ros-industrial/HW8/src/param/src/set_bg_color.cpp:14:21: note: ‘const string PARAM_NAME’ previously declared here
+   const std::string PARAM_NAME = "~r";
+                     ^
+make[2]: *** [CMakeFiles/set_bg_color.dir/src/set_bg_color.cpp.o] Error 1
+make[1]: *** [CMakeFiles/set_bg_color.dir/all] Error 2
+make: *** [all] Error 2

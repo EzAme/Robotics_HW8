@@ -1,5 +1,6 @@
 param
 /home/ros-industrial/HW8/devel/.private/param/lib/param/set_bg_color /home/ros-industrial/HW8/devel/lib/param/set_bg_color
+/home/ros-industrial/HW8/devel/.private/param/lib/param/pubvel_spiral /home/ros-industrial/HW8/devel/lib/param/pubvel_spiral
 /home/ros-industrial/HW8/devel/.private/param/lib/param/pubvel_with_max /home/ros-industrial/HW8/devel/lib/param/pubvel_with_max
 /home/ros-industrial/HW8/devel/.private/param/lib/pkgconfig/param.pc /home/ros-industrial/HW8/devel/lib/pkgconfig/param.pc
 /home/ros-industrial/HW8/devel/.private/param/share/param/cmake/paramConfig-version.cmake /home/ros-industrial/HW8/devel/share/param/cmake/paramConfig-version.cmake

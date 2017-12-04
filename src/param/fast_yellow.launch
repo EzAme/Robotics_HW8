@@ -5,14 +5,14 @@
     name="turtlesim"
   />
   <node
-    pkg="agitr"
+    pkg="param"
     type="pubvel_with_max"
     name="publish_velocity"
   >
     <param name="max_vel" value="3" />
   </node>
   <node
-    pkg="agitr"
+    pkg="param"
     type="set_bg_color"
     name="set_bg_color"
   />
