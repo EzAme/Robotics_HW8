@@ -1,0 +1,7 @@
+service
+/home/ros-industrial/HW8/devel/.private/service/lib/service/pubvel_toggle /home/ros-industrial/HW8/devel/lib/service/pubvel_toggle
+/home/ros-industrial/HW8/devel/.private/service/lib/service/pubvel_discrete_motion /home/ros-industrial/HW8/devel/lib/service/pubvel_discrete_motion
+/home/ros-industrial/HW8/devel/.private/service/lib/service/spawn_turtle /home/ros-industrial/HW8/devel/lib/service/spawn_turtle
+/home/ros-industrial/HW8/devel/.private/service/lib/pkgconfig/service.pc /home/ros-industrial/HW8/devel/lib/pkgconfig/service.pc
+/home/ros-industrial/HW8/devel/.private/service/share/service/cmake/serviceConfig.cmake /home/ros-industrial/HW8/devel/share/service/cmake/serviceConfig.cmake
+/home/ros-industrial/HW8/devel/.private/service/share/service/cmake/serviceConfig-version.cmake /home/ros-industrial/HW8/devel/share/service/cmake/serviceConfig-version.cmake

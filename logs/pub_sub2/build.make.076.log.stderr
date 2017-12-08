@@ -1,0 +1,7 @@
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp: In function ‘void positionT(const Pose&)’:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:10:10: error: return-statement with a value, in function returning 'void' [-fpermissive]
+   return k;
+          ^
+make[2]: *** [CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_smart.dir/all] Error 2
+make: *** [all] Error 2

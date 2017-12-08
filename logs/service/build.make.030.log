@@ -1,0 +1,6 @@
+Scanning dependencies of target pubvel_discrete_motion
+[ 16%] Building CXX object CMakeFiles/pubvel_discrete_motion.dir/src/pubvel_discrete_motion.cpp.o
+[ 50%] Built target spawn_turtle
+[ 83%] Built target pubvel_toggle
+[100%] Linking CXX executable /home/ros-industrial/HW8/devel/.private/service/lib/service/pubvel_discrete_motion
+[100%] Built target pubvel_discrete_motion

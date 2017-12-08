@@ -1,0 +1,13 @@
+/home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp:35:11: error: no match for ‘operator=’ (operand types are ‘ros::Time’ and ‘double’)
+     begin = ros::Time::now().toSec();
+           ^
+In file included from /opt/ros/kinetic/include/ros/ros.h:38:0,
+                 from /home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp:3:
+/opt/ros/kinetic/include/ros/time.h:176:22: note: candidate: ros::Time& ros::Time::operator=(const ros::Time&)
+   class ROSTIME_DECL Time : public TimeBase<Time, Duration>
+                      ^
+/opt/ros/kinetic/include/ros/time.h:176:22: note:   no known conversion for argument 1 from ‘double’ to ‘const ros::Time&’
+make[2]: *** [CMakeFiles/pubvel_discrete_motion.dir/src/pubvel_discrete_motion.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_discrete_motion.dir/all] Error 2
+make: *** [all] Error 2

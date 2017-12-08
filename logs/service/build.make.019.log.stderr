@@ -1,0 +1,17 @@
+/home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp:44:31: error: no match for ‘operator-’ (operand types are ‘ros::Time’ and ‘double’)
+       while ((ros::Time::now()-t) <= 2)
+                               ^
+In file included from /opt/ros/kinetic/include/ros/ros.h:38:0,
+                 from /home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp:3:
+/opt/ros/kinetic/include/ros/time.h:140:7: note: candidate: D ros::TimeBase<T, D>::operator-(const T&) const [with T = ros::Time; D = ros::Duration]
+     D operator-(const T &rhs) const;
+       ^
+/opt/ros/kinetic/include/ros/time.h:140:7: note:   no known conversion for argument 1 from ‘double’ to ‘const ros::Time&’
+/opt/ros/kinetic/include/ros/time.h:142:7: note: candidate: T ros::TimeBase<T, D>::operator-(const D&) const [with T = ros::Time; D = ros::Duration]
+     T operator-(const D &rhs) const;
+       ^
+/opt/ros/kinetic/include/ros/time.h:142:7: note:   no known conversion for argument 1 from ‘double’ to ‘const ros::Duration&’
+make[2]: *** [CMakeFiles/pubvel_discrete_motion.dir/src/pubvel_discrete_motion.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_discrete_motion.dir/all] Error 2
+make: *** [all] Error 2

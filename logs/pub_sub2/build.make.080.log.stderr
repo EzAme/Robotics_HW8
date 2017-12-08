@@ -1,0 +1,6 @@
+CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o: In function `main':
+pubvel_smart.cpp:(.text+0x3b6): undefined reference to `positionT()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [/home/ros-industrial/HW8/devel/.private/pub_sub2/lib/pub_sub2/pubvel_smart] Error 1
+make[1]: *** [CMakeFiles/pubvel_smart.dir/all] Error 2
+make: *** [all] Error 2

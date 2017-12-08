@@ -1,0 +1,7 @@
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:52:29: error: expected primary-expression before ‘||’ token
+     if (turtle_pose.x >=10) || (turtle_pose.x <=1) || (turtle_pose.y >=10) || (turtle_pose.y <=1){
+                             ^
+make[2]: *** [CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_smart.dir/all] Error 2
+make: *** [all] Error 2

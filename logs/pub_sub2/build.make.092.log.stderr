@@ -1,0 +1,10 @@
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:42:18: error: invalid initialization of reference of type ‘const Pose& {aka const turtlesim::Pose_<std::allocator<void> >&}’ from expression of type ‘ros::Subscriber’
+     positionT(sub);
+                  ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:9:6: note: in passing argument 1 of ‘void positionT(const Pose&)’
+ void positionT(const turtlesim::Pose& k){
+      ^
+make[2]: *** [CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_smart.dir/all] Error 2
+make: *** [all] Error 2

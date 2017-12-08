@@ -1,0 +1,16 @@
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:56:5: error: expected ‘;’ before ‘}’ token
+     }
+     ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:60:5: error: expected ‘;’ before ‘}’ token
+     }
+     ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:64:5: error: expected ‘;’ before ‘}’ token
+     }
+     ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:68:5: error: expected ‘;’ before ‘}’ token
+     }
+     ^
+make[2]: *** [CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_smart.dir/all] Error 2
+make: *** [all] Error 2

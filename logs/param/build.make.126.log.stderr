@@ -1,0 +1,22 @@
+In file included from /opt/ros/kinetic/include/ros/ros.h:40:0,
+                 from /home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:3:
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp: In function ‘int main(int, char**)’:
+/opt/ros/kinetic/include/ros/console.h:393:3: error: expected ‘;’ before ‘do’
+   do \
+   ^
+/opt/ros/kinetic/include/ros/console.h:568:43: note: in expansion of macro ‘ROS_LOG_STREAM_COND’
+ #define ROS_LOG_STREAM(level, name, args) ROS_LOG_STREAM_COND(true, level, name, args)
+                                           ^
+/opt/ros/kinetic/include/rosconsole/macros_generated.h:111:31: note: in expansion of macro ‘ROS_LOG_STREAM’
+ #define ROS_INFO_STREAM(args) ROS_LOG_STREAM(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, args)
+                               ^
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:56:6: note: in expansion of macro ‘ROS_INFO_STREAM’
+      ROS_INFO_STREAM( j << " Theta: " << turtle_pose.theta << " PPose:" << ppose);
+      ^
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:59:1: error: expected ‘}’ at end of input
+ }
+ ^
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:59:1: error: expected ‘}’ at end of input
+make[2]: *** [CMakeFiles/pubvel_spiral.dir/src/pubvel_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_spiral.dir/all] Error 2
+make: *** [all] Error 2

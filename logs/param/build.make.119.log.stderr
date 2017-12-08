@@ -1,0 +1,7 @@
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:53:9: error: ‘ppose’ was not declared in this scope
+     if (ppose < turtle_pose.theta){j++;}
+         ^
+make[2]: *** [CMakeFiles/pubvel_spiral.dir/src/pubvel_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_spiral.dir/all] Error 2
+make: *** [all] Error 2

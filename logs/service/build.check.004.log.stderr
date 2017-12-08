@@ -1,0 +1,34 @@
+[31m[1mCMake Error[0m at /home/ros-industrial/HW8/src/service/CMakeLists.txt:11 (add_executable):
+  Cannot find source file:
+
+    pubvel_discrete_motion.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/ros-industrial/HW8/src/service/CMakeLists.txt:9 (add_executable):
+  Cannot find source file:
+
+    spawn_turtle.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/ros-industrial/HW8/src/service/CMakeLists.txt:10 (add_executable):
+  Cannot find source file:
+
+    pubvel_toggle.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: pubvel_discrete_motion
+CMake Error: Cannot determine link language for target "pubvel_discrete_motion".
+CMake Error: CMake can not determine linker language for target: spawn_turtle
+CMake Error: Cannot determine link language for target "spawn_turtle".
+CMake Error: CMake can not determine linker language for target: pubvel_toggle
+CMake Error: Cannot determine link language for target "pubvel_toggle".
+make: *** [cmake_check_build_system] Error 1

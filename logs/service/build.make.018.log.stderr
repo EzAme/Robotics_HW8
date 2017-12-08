@@ -1,0 +1,14 @@
+/home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp:44:39: error: no match for ‘operator<=’ (operand types are ‘ros::Duration’ and ‘int’)
+       while ((ros::Time::now()-begin) <= 1)
+                                       ^
+In file included from /opt/ros/kinetic/include/ros/time.h:57:0,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp:3:
+/opt/ros/kinetic/include/ros/duration.h:92:8: note: candidate: bool ros::DurationBase<T>::operator<=(const T&) const [with T = ros::Duration]
+   bool operator<=(const T &rhs) const;
+        ^
+/opt/ros/kinetic/include/ros/duration.h:92:8: note:   no known conversion for argument 1 from ‘int’ to ‘const ros::Duration&’
+make[2]: *** [CMakeFiles/pubvel_discrete_motion.dir/src/pubvel_discrete_motion.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_discrete_motion.dir/all] Error 2
+make: *** [all] Error 2

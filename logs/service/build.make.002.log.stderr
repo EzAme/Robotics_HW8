@@ -1,0 +1,8 @@
+/home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp:47:5: error: ‘pub’ is not a member of ‘ros’
+     ros::
+     ^
+make[2]: *** [CMakeFiles/pubvel_discrete_motion.dir/src/pubvel_discrete_motion.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_discrete_motion.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [all] Error 2

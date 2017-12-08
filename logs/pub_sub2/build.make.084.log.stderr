@@ -1,0 +1,11 @@
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:49:0: error: unterminated argument list invoking macro "ROS_INFO_STREAM"
+ }
+ ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp: In function ‘void positionT(const Pose&)’:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:10:3: error: ‘ROS_INFO_STREAM’ was not declared in this scope
+   ROS_INFO_STREAM(std::setprecision(2) << std::fixed
+   ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:10:3: error: expected ‘}’ at end of input
+make[2]: *** [CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_smart.dir/all] Error 2
+make: *** [all] Error 2

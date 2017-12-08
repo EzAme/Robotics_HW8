@@ -1,0 +1,11 @@
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:53:60: error: expected ‘;’ before ‘<<’ token
+                     << " direction=" << turtle_pose.theta) << turtle_pose.x << " then " <<turtle_pose.theta<<;
+                                                            ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:53:60: error: expected primary-expression before ‘<<’ token
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:53:110: error: expected primary-expression before ‘;’ token
+                     << " direction=" << turtle_pose.theta) << turtle_pose.x << " then " <<turtle_pose.theta<<;
+                                                                                                              ^
+make[2]: *** [CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_smart.dir/all] Error 2
+make: *** [all] Error 2

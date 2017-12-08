@@ -1,6 +1,0 @@
-[ 33%] Built target pubvel_spiral
-[ 66%] Built target pubvel_with_max
-Scanning dependencies of target set_bg_color
-[ 83%] Building CXX object CMakeFiles/set_bg_color.dir/src/set_bg_color.cpp.o
-[100%] Linking CXX executable /home/ros-industrial/HW8/devel/.private/param/lib/param/set_bg_color
-[100%] Built target set_bg_color

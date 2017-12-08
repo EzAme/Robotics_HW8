@@ -1,0 +1,245 @@
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:72:25: error: no match for ‘operator+’ (operand types are ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ and ‘double’)
+         To = turtle_pose+pi;}
+                         ^
+In file included from /usr/include/c++/5/vector:65:0,
+                 from /usr/include/boost/format.hpp:17,
+                 from /usr/include/boost/math/policies/error_handling.hpp:31,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/bits/stl_bvector.h:387:3: note: candidate: std::_Bit_const_iterator std::operator+(std::ptrdiff_t, const std::_Bit_const_iterator&)
+   operator+(ptrdiff_t __n, const _Bit_const_iterator& __x)
+   ^
+/usr/include/c++/5/bits/stl_bvector.h:387:3: note:   no known conversion for argument 1 from ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ to ‘std::ptrdiff_t {aka long int}’
+/usr/include/c++/5/bits/stl_bvector.h:297:3: note: candidate: std::_Bit_iterator std::operator+(std::ptrdiff_t, const std::_Bit_iterator&)
+   operator+(ptrdiff_t __n, const _Bit_iterator& __x)
+   ^
+/usr/include/c++/5/bits/stl_bvector.h:297:3: note:   no known conversion for argument 1 from ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ to ‘std::ptrdiff_t {aka long int}’
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/complex:445:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&)
+     operator+(const complex<_Tp>& __x)
+     ^
+/usr/include/c++/5/complex:445:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:72:26: note:   ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ is not derived from ‘const std::complex<_Tp>’
+         To = turtle_pose+pi;}
+                          ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/complex:344:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator+(const _Tp&, const std::complex<_Tp>&)
+     operator+(const _Tp& __x, const complex<_Tp>& __y)
+     ^
+/usr/include/c++/5/complex:344:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:72:26: note:   mismatched types ‘const std::complex<_Tp>’ and ‘double’
+         To = turtle_pose+pi;}
+                          ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/complex:335:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const _Tp&)
+     operator+(const complex<_Tp>& __x, const _Tp& __y)
+     ^
+/usr/include/c++/5/complex:335:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:72:26: note:   ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ is not derived from ‘const std::complex<_Tp>’
+         To = turtle_pose+pi;}
+                          ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/complex:326:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator+(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator+(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^
+/usr/include/c++/5/complex:326:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:72:26: note:   ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ is not derived from ‘const std::complex<_Tp>’
+         To = turtle_pose+pi;}
+                          ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /opt/ros/kinetic/include/ros/platform.h:55,
+                 from /opt/ros/kinetic/include/ros/time.h:53,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/bits/basic_string.h:4836:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, _CharT)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+     ^
+/usr/include/c++/5/bits/basic_string.h:4836:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:72:26: note:   ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+         To = turtle_pose+pi;}
+                          ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /opt/ros/kinetic/include/ros/platform.h:55,
+                 from /opt/ros/kinetic/include/ros/time.h:53,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/bits/basic_string.h:4820:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _CharT*)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4820:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:72:26: note:   ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+         To = turtle_pose+pi;}
+                          ^
+In file included from /usr/include/c++/5/string:53:0,
+                 from /opt/ros/kinetic/include/ros/platform.h:55,
+                 from /opt/ros/kinetic/include/ros/time.h:53,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/bits/basic_string.tcc:1167:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+     ^
+/usr/include/c++/5/bits/basic_string.tcc:1167:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:72:26: note:   mismatched types ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’ and ‘double’
+         To = turtle_pose+pi;}
+                          ^
+In file included from /usr/include/c++/5/string:53:0,
+                 from /opt/ros/kinetic/include/ros/platform.h:55,
+                 from /opt/ros/kinetic/include/ros/time.h:53,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/bits/basic_string.tcc:1151:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(const _CharT* __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.tcc:1151:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:72:26: note:   mismatched types ‘const _CharT*’ and ‘turtlesim::Pose_<std::allocator<void> >’
+         To = turtle_pose+pi;}
+                          ^
+In file included from /usr/include/c++/5/string:52:0,
+                 from /opt/ros/kinetic/include/ros/platform.h:55,
+                 from /opt/ros/kinetic/include/ros/time.h:53,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/bits/basic_string.h:4783:5: note: candidate: template<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Alloc> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     ^
+/usr/include/c++/5/bits/basic_string.h:4783:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:72:26: note:   ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ is not derived from ‘const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>’
+         To = turtle_pose+pi;}
+                          ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/string:40,
+                 from /opt/ros/kinetic/include/ros/platform.h:55,
+                 from /opt/ros/kinetic/include/ros/time.h:53,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/bits/stl_iterator.h:334:5: note: candidate: template<class _Iterator> std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)
+     operator+(typename reverse_iterator<_Iterator>::difference_type __n,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:334:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:72:26: note:   mismatched types ‘const std::reverse_iterator<_Iterator>’ and ‘double’
+         To = turtle_pose+pi;}
+                          ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:74:25: error: no match for ‘operator-’ (operand types are ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ and ‘double’)
+         To = turtle_pose-pi;
+                         ^
+In file included from /usr/include/c++/5/vector:65:0,
+                 from /usr/include/boost/format.hpp:17,
+                 from /usr/include/boost/math/policies/error_handling.hpp:31,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/bits/stl_bvector.h:208:3: note: candidate: std::ptrdiff_t std::operator-(const std::_Bit_iterator_base&, const std::_Bit_iterator_base&)
+   operator-(const _Bit_iterator_base& __x, const _Bit_iterator_base& __y)
+   ^
+/usr/include/c++/5/bits/stl_bvector.h:208:3: note:   no known conversion for argument 1 from ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ to ‘const std::_Bit_iterator_base&’
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/complex:451:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&)
+     operator-(const complex<_Tp>& __x)
+     ^
+/usr/include/c++/5/complex:451:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:74:26: note:   ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ is not derived from ‘const std::complex<_Tp>’
+         To = turtle_pose-pi;
+                          ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/complex:374:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator-(const _Tp&, const std::complex<_Tp>&)
+     operator-(const _Tp& __x, const complex<_Tp>& __y)
+     ^
+/usr/include/c++/5/complex:374:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:74:26: note:   mismatched types ‘const std::complex<_Tp>’ and ‘double’
+         To = turtle_pose-pi;
+                          ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/complex:365:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const _Tp&)
+     operator-(const complex<_Tp>& __x, const _Tp& __y)
+     ^
+/usr/include/c++/5/complex:365:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:74:26: note:   ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ is not derived from ‘const std::complex<_Tp>’
+         To = turtle_pose-pi;
+                          ^
+In file included from /usr/include/boost/config/no_tr1/complex.hpp:21:0,
+                 from /usr/include/boost/math/policies/error_handling.hpp:15,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/complex:356:5: note: candidate: template<class _Tp> std::complex<_Tp> std::operator-(const std::complex<_Tp>&, const std::complex<_Tp>&)
+     operator-(const complex<_Tp>& __x, const complex<_Tp>& __y)
+     ^
+/usr/include/c++/5/complex:356:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:74:26: note:   ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ is not derived from ‘const std::complex<_Tp>’
+         To = turtle_pose-pi;
+                          ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/string:40,
+                 from /opt/ros/kinetic/include/ros/platform.h:55,
+                 from /opt/ros/kinetic/include/ros/time.h:53,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/bits/stl_iterator.h:385:5: note: candidate: template<class _IteratorL, class _IteratorR> typename std::reverse_iterator<_Iterator>::difference_type std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)
+     operator-(const reverse_iterator<_IteratorL>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:385:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:74:26: note:   ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+         To = turtle_pose-pi;
+                          ^
+In file included from /usr/include/c++/5/bits/stl_algobase.h:67:0,
+                 from /usr/include/c++/5/bits/char_traits.h:39,
+                 from /usr/include/c++/5/string:40,
+                 from /opt/ros/kinetic/include/ros/platform.h:55,
+                 from /opt/ros/kinetic/include/ros/time.h:53,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/c++/5/bits/stl_iterator.h:328:5: note: candidate: template<class _Iterator> typename std::reverse_iterator<_Iterator>::difference_type std::operator-(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)
+     operator-(const reverse_iterator<_Iterator>& __x,
+     ^
+/usr/include/c++/5/bits/stl_iterator.h:328:5: note:   template argument deduction/substitution failed:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:74:26: note:   ‘turtlesim::Pose {aka turtlesim::Pose_<std::allocator<void> >}’ is not derived from ‘const std::reverse_iterator<_Iterator>’
+         To = turtle_pose-pi;
+                          ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:91:31: error: ‘to’ was not declared in this scope
+     while (turtle_pose.theta!=to){
+                               ^
+make[2]: *** [CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_smart.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,23 @@
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:11:1: error: ‘turtlesim’ does not name a type
+ turtlesim::Pose turtle_pose;
+ ^
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:12:22: error: ‘turtlesim’ does not name a type
+ void positionT(const turtlesim::Pose& k){
+                      ^
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:12:37: error: expected unqualified-id before ‘&’ token
+ void positionT(const turtlesim::Pose& k){
+                                     ^
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:12:37: error: expected ‘)’ before ‘&’ token
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:12:39: error: expected initializer before ‘k’
+ void positionT(const turtlesim::Pose& k){
+                                       ^
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:24:61: error: ‘positionT’ was not declared in this scope
+   ros::Subscriber sub = nh.subscribe("turtle1/pose", 1000, &positionT);
+                                                             ^
+/home/ros-industrial/HW8/src/param/src/pubvel_spiral.cpp:36:13: error: ‘turtle_pose’ was not declared in this scope
+     ppose = turtle_pose.theta;
+             ^
+make[2]: *** [CMakeFiles/pubvel_spiral.dir/src/pubvel_spiral.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_spiral.dir/all] Error 2
+make: *** [all] Error 2

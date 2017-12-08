@@ -1,0 +1,7 @@
+/home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/service/src/pubvel_discrete_motion.cpp:75:38: error: expected primary-expression before ‘<=’ token
+       while ( ang-turtle_pose.theta) <= M_PI/2)
+                                      ^
+make[2]: *** [CMakeFiles/pubvel_discrete_motion.dir/src/pubvel_discrete_motion.cpp.o] Error 1
+make[1]: *** [CMakeFiles/pubvel_discrete_motion.dir/all] Error 2
+make: *** [all] Error 2
