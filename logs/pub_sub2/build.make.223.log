@@ -1,0 +1,6 @@
+Scanning dependencies of target pubvel_smart
+[ 16%] Building CXX object CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o
+[ 33%] Linking CXX executable /home/ros-industrial/HW8/devel/.private/pub_sub2/lib/pub_sub2/pubvel_smart
+[ 33%] Built target pubvel_smart
+[ 66%] Built target pubvel
+[100%] Built target subpose

@@ -5,11 +5,14 @@
 #include <geometry_msgs/Twist.h>  // For geometry_msgs::Twist
 #include <turtlesim/Pose.h>
 #include <stdlib.h> // For rand() and RAND_MAX
+#include <time.h>
+double t;
 
 turtlesim::Pose turtle_pose;
 int maxT = 9;
 int minT = 2;
 double pi = 3.14;
+
 void positionT(const turtlesim::Pose& k){
   //  ROS_INFO_STREAM(std::setprecision(2) << std::fixed
   //    << "position=(" <<  k.x << "," << k.y << ")"
@@ -55,22 +58,77 @@ int main(int argc, char **argv) {
 
     ros::spinOnce();
     if (turtle_pose.x >=maxT) {
-      msg.linear.x=-1;
-      msg.angular.z=0;
+      msg.angular.z= 1.5;
+      msg.linear.x=0.0;
+      t =ros::Time::now().toSec();
+      while ((ros::Time::now().toSec()-t) <= 2)
+      {
+        pub.publish(msg);
+        ros::spinOnce();
+      }
+      msg.angular.z= 0;
+      msg.linear.x=0.5;
+      t =ros::Time::now().toSec();
+      while ((ros::Time::now().toSec()-t) <= 2)
+      {
+        pub.publish(msg);
+        ros::spinOnce();
+      }
     }
     if (turtle_pose.x <=minT) {
-
-      msg.linear.x=-1;
-      msg.angular.z=0;
+      msg.angular.z= 1.50;
+      msg.linear.x=0.0;
+      t =ros::Time::now().toSec();
+      while ((ros::Time::now().toSec()-t) <= 2)
+      {
+        pub.publish(msg);
+        ros::spinOnce();
+      }
+      msg.angular.z= 0;
+      msg.linear.x=0.5;
+      t =ros::Time::now().toSec();
+      while ((ros::Time::now().toSec()-t) <= 2)
+      {
+        pub.publish(msg);
+        ros::spinOnce();
+      }
     }
 
     if (turtle_pose.y >=maxT) {
-      msg.linear.x=-1;
-      msg.angular.z=0;
+      msg.angular.z= 1.50;
+      msg.linear.x=0.0;
+      t =ros::Time::now().toSec();
+      while ((ros::Time::now().toSec()-t) <= 2)
+      {
+        pub.publish(msg);
+        ros::spinOnce();
+      }
+      msg.angular.z= 0;
+      msg.linear.x=0.5;
+      t =ros::Time::now().toSec();
+      while ((ros::Time::now().toSec()-t) <= 2)
+      {
+        pub.publish(msg);
+        ros::spinOnce();
+      }
     }
     if (turtle_pose.y <=minT) {
-      msg.linear.x=-1;
-      msg.angular.z=0;
+      msg.angular.z= 1.5;
+      msg.linear.x=0.0;
+      t =ros::Time::now().toSec();
+      while ((ros::Time::now().toSec()-t) <= 2)
+      {
+        pub.publish(msg);
+        ros::spinOnce();
+      }
+      msg.angular.z= 0;
+      msg.linear.x=0.5;
+      t =ros::Time::now().toSec();
+      while ((ros::Time::now().toSec()-t) <= 2)
+      {
+        pub.publish(msg);
+        ros::spinOnce();
+      }
     }
 
     pub.publish(msg);

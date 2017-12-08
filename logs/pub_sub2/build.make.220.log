@@ -1,0 +1,181 @@
+Scanning dependencies of target pubvel_smart
+[ 16%] Building CXX object CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp: In function ‘int main(int, char**)’:
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:60:7: error: ‘begin’ was not declared in this scope
+       begin= ros::Time::now();
+       ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:60:7: note: suggested alternatives:
+In file included from /usr/include/boost/range/functions.hpp:18:0,
+                 from /usr/include/boost/range/iterator_range_core.hpp:38,
+                 from /usr/include/boost/lexical_cast.hpp:30,
+                 from /opt/ros/kinetic/include/ros/transport_hints.h:34,
+                 from /opt/ros/kinetic/include/ros/subscribe_options.h:33,
+                 from /opt/ros/kinetic/include/ros/node_handle.h:41,
+                 from /opt/ros/kinetic/include/ros/ros.h:45,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/boost/range/begin.hpp:106:61: note:   ‘boost::range_adl_barrier::begin’
+ inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type begin( const T& r )
+                                                             ^
+In file included from /usr/include/boost/mpl/list/aux_/begin_end.hpp:17:0,
+                 from /usr/include/boost/mpl/list/list0.hpp:27,
+                 from /usr/include/boost/mpl/list/list10.hpp:18,
+                 from /usr/include/boost/mpl/list/list20.hpp:18,
+                 from /usr/include/boost/mpl/list.hpp:36,
+                 from /usr/include/boost/math/policies/policy.hpp:9,
+                 from /usr/include/boost/math/policies/error_handling.hpp:19,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/boost/mpl/begin_end_fwd.hpp:22:38: note:   ‘boost::mpl::begin’
+ template< typename Sequence > struct begin;
+                                      ^
+In file included from /usr/include/boost/range/functions.hpp:18:0,
+                 from /usr/include/boost/range/iterator_range_core.hpp:38,
+                 from /usr/include/boost/lexical_cast.hpp:30,
+                 from /opt/ros/kinetic/include/ros/transport_hints.h:34,
+                 from /opt/ros/kinetic/include/ros/subscribe_options.h:33,
+                 from /opt/ros/kinetic/include/ros/node_handle.h:41,
+                 from /opt/ros/kinetic/include/ros/ros.h:45,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/boost/range/begin.hpp:106:61: note:   ‘boost::range_adl_barrier::begin’
+ inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type begin( const T& r )
+                                                             ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:61:40: error: ‘t’ was not declared in this scope
+       while ((ros::Time::now().toSec()-t) <= 2)
+                                        ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:70:7: error: ‘begin’ was not declared in this scope
+       begin= ros::Time::now();
+       ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:70:7: note: suggested alternatives:
+In file included from /usr/include/boost/range/functions.hpp:18:0,
+                 from /usr/include/boost/range/iterator_range_core.hpp:38,
+                 from /usr/include/boost/lexical_cast.hpp:30,
+                 from /opt/ros/kinetic/include/ros/transport_hints.h:34,
+                 from /opt/ros/kinetic/include/ros/subscribe_options.h:33,
+                 from /opt/ros/kinetic/include/ros/node_handle.h:41,
+                 from /opt/ros/kinetic/include/ros/ros.h:45,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/boost/range/begin.hpp:106:61: note:   ‘boost::range_adl_barrier::begin’
+ inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type begin( const T& r )
+                                                             ^
+In file included from /usr/include/boost/mpl/list/aux_/begin_end.hpp:17:0,
+                 from /usr/include/boost/mpl/list/list0.hpp:27,
+                 from /usr/include/boost/mpl/list/list10.hpp:18,
+                 from /usr/include/boost/mpl/list/list20.hpp:18,
+                 from /usr/include/boost/mpl/list.hpp:36,
+                 from /usr/include/boost/math/policies/policy.hpp:9,
+                 from /usr/include/boost/math/policies/error_handling.hpp:19,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/boost/mpl/begin_end_fwd.hpp:22:38: note:   ‘boost::mpl::begin’
+ template< typename Sequence > struct begin;
+                                      ^
+In file included from /usr/include/boost/range/functions.hpp:18:0,
+                 from /usr/include/boost/range/iterator_range_core.hpp:38,
+                 from /usr/include/boost/lexical_cast.hpp:30,
+                 from /opt/ros/kinetic/include/ros/transport_hints.h:34,
+                 from /opt/ros/kinetic/include/ros/subscribe_options.h:33,
+                 from /opt/ros/kinetic/include/ros/node_handle.h:41,
+                 from /opt/ros/kinetic/include/ros/ros.h:45,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/boost/range/begin.hpp:106:61: note:   ‘boost::range_adl_barrier::begin’
+ inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type begin( const T& r )
+                                                             ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:71:40: error: ‘t’ was not declared in this scope
+       while ((ros::Time::now().toSec()-t) <= 2)
+                                        ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:81:7: error: ‘begin’ was not declared in this scope
+       begin= ros::Time::now();
+       ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:81:7: note: suggested alternatives:
+In file included from /usr/include/boost/range/functions.hpp:18:0,
+                 from /usr/include/boost/range/iterator_range_core.hpp:38,
+                 from /usr/include/boost/lexical_cast.hpp:30,
+                 from /opt/ros/kinetic/include/ros/transport_hints.h:34,
+                 from /opt/ros/kinetic/include/ros/subscribe_options.h:33,
+                 from /opt/ros/kinetic/include/ros/node_handle.h:41,
+                 from /opt/ros/kinetic/include/ros/ros.h:45,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/boost/range/begin.hpp:106:61: note:   ‘boost::range_adl_barrier::begin’
+ inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type begin( const T& r )
+                                                             ^
+In file included from /usr/include/boost/mpl/list/aux_/begin_end.hpp:17:0,
+                 from /usr/include/boost/mpl/list/list0.hpp:27,
+                 from /usr/include/boost/mpl/list/list10.hpp:18,
+                 from /usr/include/boost/mpl/list/list20.hpp:18,
+                 from /usr/include/boost/mpl/list.hpp:36,
+                 from /usr/include/boost/math/policies/policy.hpp:9,
+                 from /usr/include/boost/math/policies/error_handling.hpp:19,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/boost/mpl/begin_end_fwd.hpp:22:38: note:   ‘boost::mpl::begin’
+ template< typename Sequence > struct begin;
+                                      ^
+In file included from /usr/include/boost/range/functions.hpp:18:0,
+                 from /usr/include/boost/range/iterator_range_core.hpp:38,
+                 from /usr/include/boost/lexical_cast.hpp:30,
+                 from /opt/ros/kinetic/include/ros/transport_hints.h:34,
+                 from /opt/ros/kinetic/include/ros/subscribe_options.h:33,
+                 from /opt/ros/kinetic/include/ros/node_handle.h:41,
+                 from /opt/ros/kinetic/include/ros/ros.h:45,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/boost/range/begin.hpp:106:61: note:   ‘boost::range_adl_barrier::begin’
+ inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type begin( const T& r )
+                                                             ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:82:40: error: ‘t’ was not declared in this scope
+       while ((ros::Time::now().toSec()-t) <= 2)
+                                        ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:91:7: error: ‘begin’ was not declared in this scope
+       begin= ros::Time::now();
+       ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:91:7: note: suggested alternatives:
+In file included from /usr/include/boost/range/functions.hpp:18:0,
+                 from /usr/include/boost/range/iterator_range_core.hpp:38,
+                 from /usr/include/boost/lexical_cast.hpp:30,
+                 from /opt/ros/kinetic/include/ros/transport_hints.h:34,
+                 from /opt/ros/kinetic/include/ros/subscribe_options.h:33,
+                 from /opt/ros/kinetic/include/ros/node_handle.h:41,
+                 from /opt/ros/kinetic/include/ros/ros.h:45,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/boost/range/begin.hpp:106:61: note:   ‘boost::range_adl_barrier::begin’
+ inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type begin( const T& r )
+                                                             ^
+In file included from /usr/include/boost/mpl/list/aux_/begin_end.hpp:17:0,
+                 from /usr/include/boost/mpl/list/list0.hpp:27,
+                 from /usr/include/boost/mpl/list/list10.hpp:18,
+                 from /usr/include/boost/mpl/list/list20.hpp:18,
+                 from /usr/include/boost/mpl/list.hpp:36,
+                 from /usr/include/boost/math/policies/policy.hpp:9,
+                 from /usr/include/boost/math/policies/error_handling.hpp:19,
+                 from /usr/include/boost/math/special_functions/round.hpp:14,
+                 from /opt/ros/kinetic/include/ros/time.h:58,
+                 from /opt/ros/kinetic/include/ros/ros.h:38,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/boost/mpl/begin_end_fwd.hpp:22:38: note:   ‘boost::mpl::begin’
+ template< typename Sequence > struct begin;
+                                      ^
+In file included from /usr/include/boost/range/functions.hpp:18:0,
+                 from /usr/include/boost/range/iterator_range_core.hpp:38,
+                 from /usr/include/boost/lexical_cast.hpp:30,
+                 from /opt/ros/kinetic/include/ros/transport_hints.h:34,
+                 from /opt/ros/kinetic/include/ros/subscribe_options.h:33,
+                 from /opt/ros/kinetic/include/ros/node_handle.h:41,
+                 from /opt/ros/kinetic/include/ros/ros.h:45,
+                 from /home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:4:
+/usr/include/boost/range/begin.hpp:106:61: note:   ‘boost::range_adl_barrier::begin’
+ inline BOOST_DEDUCED_TYPENAME range_iterator<const T>::type begin( const T& r )
+                                                             ^
+/home/ros-industrial/HW8/src/pub_sub2/src/pubvel_smart.cpp:92:40: error: ‘t’ was not declared in this scope
+       while ((ros::Time::now().toSec()-t) <= 2)
+                                        ^
+CMakeFiles/pubvel_smart.dir/build.make:62: recipe for target 'CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o' failed
+make[2]: *** [CMakeFiles/pubvel_smart.dir/src/pubvel_smart.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/pubvel_smart.dir/all' failed
+Makefile:138: recipe for target 'all' failed
+make[1]: *** [CMakeFiles/pubvel_smart.dir/all] Error 2
+make: *** [all] Error 2

@@ -7,7 +7,7 @@
 #include <time.h>
 double t;
 double ang;
-ros::Time begin;
+//ros::Time begin;
 bool forward;
 bool turn;
 turtlesim::Pose turtle_pose;
@@ -48,13 +48,12 @@ int main(int argc, char **argv) {
   ros::Rate rate(2);
   while(ros::ok()) {
     geometry_msgs::Twist msg;
-//    begin = ros::Time::now();
     t = ros::Time::now().toSec();
     if (forward==true)
     {
       msg.angular.z= 0.0;
       msg.linear.x=0.5;
-      begin= ros::Time::now();
+//      begin= ros::Time::now();
       while ((ros::Time::now().toSec()-t) <= 2)
       {
         pub.publish(msg);
@@ -65,16 +64,7 @@ int main(int argc, char **argv) {
     }
     if (turn==true)
     {ros::spinOnce();
-      msg.angular.z= 0.785;
-      msg.linear.x=0.0;
-      begin= ros::Time::now();
-      while ((ros::Time::now().toSec()-t) <= 2)
-      {
 
-        pub.publish(msg);
-        ros::spinOnce();
-      }
-      msg.angular.z=0.0;
       turn = false;
     }
 

@@ -10,6 +10,7 @@
   type="pubvel_smart"
   name="publish_velocity"
   required="true"
+  output="screen"
 />
 
 </launch>
